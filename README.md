@@ -76,7 +76,7 @@ To ensure that the application runs smoothly, you will need to set up the databa
 1. **SQL Script**: The project includes an SQL setup file named `scriptForCreatingDataBase.sql` that contains the necessary database schema and sample data.
 2. **Run the SQL Script**:
    - Open your SQL server management tool.
-   - Execute the `initial_setup.sql` file to create the database schema and populate it with initial data.
+   - Execute the `scriptForCreatingDataBase.sql` file to create the database schema and populate it with initial data.
    - In the Program file update the `ConnectionStrings` section with your actual database connection string:
 
 ## Contributing
