@@ -1,4 +1,4 @@
-# Web API Project - Chinese Raffle
+# Web API Project - Chinese Auction
 
 ## Project Description
 
