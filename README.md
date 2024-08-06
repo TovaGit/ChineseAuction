@@ -2,11 +2,11 @@
 
 ## Project Description
 
-This project is a Web API system for managing a Chinese raffle, built with ASP.NET Web API on the server side and React on the client side. The system is designed for managing donors, gifts, and purchases, and includes functionality for conducting raffles.
+This project is a Web API system for managing a Chinese auction, built with ASP.NET Web API on the server side and React on the client side. The system is designed for managing donors, gifts, and purchases, and includes functionality for conducting raffles.
 
 ### Project Goals
 
-To manage a Chinese raffle, including both customer and administrative access.
+To manage a Chinese auction, including both customer and administrative access.
 
 ## Admin User
 
