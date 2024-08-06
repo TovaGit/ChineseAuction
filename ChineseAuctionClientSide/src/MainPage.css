@@ -1,0 +1,86 @@
+/* 4472C4 כחול
+3FBC5F ירוק
+F94561 ורוד
+E89D3D צהוב */
+
+body{
+   background: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-family);
+  font-weight: normal;
+  padding: 1rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+  .main-page-container {
+    display: flex;
+    flex-direction: column;
+    height: 100px; /* Make container take full viewport height */
+  }
+  
+  .logo {
+    position: absolute; /* Position the image absolutely */
+    top: 3%; /* Top edge to 0 */
+    left: 2%; /* Left edge to 0 */
+    height: 15%; /* Set the height you want */
+  }
+
+.blue-line {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #E89D3D;
+  
+}
+.card {
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+.reduced-line-spacing {
+  line-height: 0; 
+ 
+}
+.card .p-button { 
+
+  margin:  auto; /* Remove default margins and center automatically */
+}
+.custom-decrement-button {
+  background-color: transparent;
+  border:2px solid #F94561;
+  border-radius: 0;
+  color:#4472C4;
+}
+
+.custom-increment-button {
+  background-color: transparent; /* Set desired increment button color */
+  border:2px solid #F94561;
+  border-radius: 0;
+  color:#4472C4;
+
+
+}
+.custom-input-field {
+  background-color: transparent; /* Set desired input field background color */
+  border: 1px solid #F94561; /* Add a border (optional) */
+  padding: 1px; /* Adjust padding as needed */
+  width: 60px;
+text-align: center;
+color:#F94561;
+font-size: large;
+}
+.category-container {
+  display: flex; /* Enable flexbox layout */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  margin-top: 40px; /* Add margin from the top */
+}
+
+.category {
+  margin: 10px; /* Add margin between buttons */
+}
