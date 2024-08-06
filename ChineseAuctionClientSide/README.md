@@ -1,4 +1,4 @@
-# React Client - Chinese Raffle
+# React Client - Chinese Auction
 
 ## Project Overview
 
