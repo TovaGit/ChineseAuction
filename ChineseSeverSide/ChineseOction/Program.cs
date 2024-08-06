@@ -30,7 +30,7 @@ builder.Services.AddControllers().AddJsonOptions(o => o.JsonSerializerOptions.Re
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<ChineseCondex>(c => c.UseSqlServer("Data Source=DESKTOP-E0FAPSB\\SQLEXPRESS;Initial Catalog=ChineseOction345644900;Integrated Security=True;Trust Server Certificate=True"));
+builder.Services.AddDbContext<ChineseCondex>(c => c.UseSqlServer("your connection string"));
 builder.Services.AddScoped<IUserDal, UserDal>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IDonorService, DonorService>();
