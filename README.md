@@ -56,9 +56,8 @@ To manage a Chinese auction, including both customer and administrative access.
 - **ASP.NET Core**: For building the API on the server side.
 - **Entity Framework Core**: For data management.
 - **JWT**: For authentication and authorization.
-- **React**: For building the client-side application.
-- **Redux**: For state management (if used).
 - **Axios**: For HTTP requests from the client side (if used).
+- **AutoMapper**: For mapping between data transfer objects (DTOs) and entity models.
 
 ## How to Run the Project
 
@@ -69,6 +68,8 @@ To manage a Chinese auction, including both customer and administrative access.
 2. **Client Setup**:
    - Install dependencies using `npm install`.
    - Run the React application on the client side.
+3. **Run the Server and Client**:
+   - Ensure the server is running and the client can connect to it for testing and development.
 ## Database Setup
 
 To ensure that the application runs smoothly, you will need to set up the database with sample data. This includes images and other initial data required for the application to function properly.
@@ -77,9 +78,6 @@ To ensure that the application runs smoothly, you will need to set up the databa
    - Open your SQL server management tool.
    - Execute the `initial_setup.sql` file to create the database schema and populate it with initial data.
    - In the Program file update the `ConnectionStrings` section with your actual database connection string:
-
-3. **Run the Server and Client**:
-   - Ensure the server is running and the client can connect to it for testing and development.
 
 ## Contributing
 
