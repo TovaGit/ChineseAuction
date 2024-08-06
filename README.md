@@ -1,4 +1,4 @@
-# Web API Project - Chinese Auction
+# FullStack Project - Chinese Auction (WebApi,React,Sql)
 
 ## Project Description
 
