@@ -17,4 +17,5 @@ The React Client Side for the Chinese Auction project provides a modern, high-qu
 To get started with the React client, follow these steps:
 
 -npm install
+
 -npm start
