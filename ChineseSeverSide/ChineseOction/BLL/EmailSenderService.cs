@@ -17,8 +17,8 @@ namespace ChineseOction.BLL
         }
         public async Task  SendEmail(DtoSendEmail dtoSendEmail)
         {
-            var mail = "37326082690@mby.co.il";
-            var pwd = "Student@264";
+            var mail = "yourMail";
+            var pwd = "yourPwd";
 
             var client = new SmtpClient("smtp.office365.com", 587)
             {
