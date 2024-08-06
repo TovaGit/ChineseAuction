@@ -30,9 +30,9 @@ To manage a Chinese auction, including both customer and administrative access.
   - View buyer details.
 - **Raffle Process**:
   - Admin can perform a raffle on each gift from the list of buyers.
-  - Generate a report detailing the winner of each gift.
-  - Generate a report of total income from the raffle.
-  - **Challenge**: Send an email to the raffle winner.
+  - Generated a report detailing the winner of each gift.
+  - Generated a report of total income from the raffle.
+  - **Challenge**: Sended an email to the raffle winner.
 
 ## Customer User
 
