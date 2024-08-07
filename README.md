@@ -87,8 +87,4 @@ Contributions are welcome! Please fork the repository and submit pull requests w
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Contact
-
-For any questions or support, please contact [tova6302@gmail.com].
-
 Good luck!
